@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#4CAF50
+}
+
+header {
+    background-color: hsla(190, 64%, 73%, 0.7);
+    padding: 10px;
+    text-align: center;
+    background-color:red;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+
+.logo-container img {
+    width: 300px; /* Ajusta el tamaño según tus necesidades */
+    margin-right: 10px; /* Espaciado entre la imagen y el título */
+    background-color: black;
+    padding: 20px;
+}
+
+.contact-info {
+    text-align: left;
+    background-color: chocolate;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    background-color: aliceblue;
+}
+
+nav {
+    margin-top: 10px;
+    background-color:yellow;
+    
+}
+
+button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+    background-color: cyan;
+}
+
+.slider {
+    /* Agrega estilos para el slider aquí ?????????*/
+    background-color: indigo;
+}
+
+.description {
+    font-style: italic;
+    margin: 20px 0;
+    background-color: maroon;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: gray;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+footer {
+    background-color: greenyellow;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
